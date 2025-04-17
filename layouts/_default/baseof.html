@@ -1,0 +1,17 @@
+
+<!DOCTYPE html>
+<html lang="{{ or site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+
+{{$params := cond hugo.IsProduction .Page.Params.params .Page.Params}}
+
+  <head>
+    {{ partial "header.html" . }}
+  </head>
+
+<body>
+      <div class="content">
+		{{ block "main" . }}{{ end }}
+      </div>
+  </main>
+</body>
+</html>
