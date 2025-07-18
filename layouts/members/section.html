@@ -1,10 +1,10 @@
 {{ define "main" }}
 
 <h1>Members!</h1>
-
 <ul>
 	<!-- Dynamically places sites from /data/members.json-->
-	{{with $members := .Site.Data.members}}
+	{{with resources.Get "members.json" | transform.Unmarshal}}
+		<p>{{.RelPermalink}}</p>
 		{{range .sites}}
 			<li>{{.}}</li>
 		{{end}}

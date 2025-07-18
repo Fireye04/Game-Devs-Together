@@ -27,10 +27,10 @@ Of course, contributions and further suggestions are more than welcome.
 Yes, with three caveats.
 
 1. You make games. This includes but is not limited to: Video games, Board games, Tabletop RPGs, Branching narratives, or any other subdivision therein. If you've tried a game jam, poked around in godot, or even just make art/ music for games you're welcome to join.
-2. You own and operate a personal website. Custom domains are not required; Neocities, Nekoweb, and github pages-hosted sites are more than welcome. Just make sure you've added the GDT widget below somewhere on your site!
+2. You own and operate a personal website. Custom domains are not required; Neocities, Nekoweb, and github pages-hosted sites are more than welcome. Just make sure you've added the GDT widget (below) somewhere on your site!
 3. You are a respectful individual. GDT is a place for those of all identies and backgrounds to share their love of game design; If you or your website feature hateful speech, racism, sexism, ableism, homophobia, transphobia, or any other assorted nasties, you are not welcome here.
 
-If you fit the criteria, you can join by opening up a PR adding your site's URL and other assorted metadata to the `members.json` file on the [GDT GitHub](https://github.com/Fireye04/Game-Devs-Together).
+If you fit the criteria, you can join by opening up a PR adding your site to the `members.json` file on the [GDT GitHub](https://github.com/Fireye04/Game-Devs-Together).
 
 If you're not familiar with the process of opening a Pull request, please open a thread on the GDT [github discussions page](https://github.com/Fireye04/Game-Devs-Together/discussions), so someone can help you out! (A more comprehensive guide is coming soon!)
 
@@ -38,8 +38,11 @@ If you're not familiar with the process of opening a Pull request, please open a
 
 This is gonna be one hell of a placeholder (I cannot draw to save my life! Make it better [here](https://github.com/Fireye04/Game-Devs-Together/discussions/7)!)
 
-{{< image path="/Assets/GDT.svg" width=300 alt="GDT Icon" >}}
-![GDT Widget](Assets/GDT.svg)
+{{< scripts >}}
+
+To add it to your site use the following code!
+
+{{< code value="<script src='https://GDT.fireye.coffee/scripts/widget.js'></script>">}}
 
 ## Why?
 
