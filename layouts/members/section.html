@@ -1,0 +1,24 @@
+{{ define "main" }}
+
+<h1>Members!</h1>
+
+<ul>
+	<!-- Dynamically places sites from /data/members.json-->
+	{{with $members := .Site.Data.members}}
+		{{range .sites}}
+			<li>{{.}}</li>
+		{{end}}
+	{{else}}
+		<!--could not find file-->
+		<li>Uh</li>
+		<li>Oh</li>
+		<li>Members</li>
+		<li>File</li>
+		<li>Missing</li>
+	{{end}}
+</ul>
+
+{{.Content}}
+
+<p>Github: <a href="https://github.com/Fireye04/Game-Devs-Together">https://github.com/Fireye04/Game-Devs-Together</a></p>
+{{ end }}
