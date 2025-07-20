@@ -12,4 +12,4 @@ Our main discussion hub at the moment is via github discussions accessible from 
 
 ## Contributing
 
-GDT is an open source site by design, created both for the community and by the community. If you want to contribute, please don't hesitate to open an issue, or grab an existing one.
+GDT is an open source site by design, created both for the community and by the community. If you want to contribute, please don't hesitate to open an issue, or grab an existing one :)
