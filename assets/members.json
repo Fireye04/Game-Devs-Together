@@ -3,8 +3,8 @@
 		{
 			"name": "Fireye",
 			"url": "https://fireye.coffee",
-			"description": "Small little site dedicated to learning and growing as a developer and artist",
-			"button-url": "https://fireye.coffee/Assets/fireye_coffee_button.gif"
+			"description": "My homepage, dedicated to learning and growing as a developer and artist",
+			"button_url": "https://fireye.coffee/Assets/fireye_coffee_button.gif"
 		}
 	]
 }

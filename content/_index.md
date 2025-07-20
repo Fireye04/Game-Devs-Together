@@ -9,18 +9,17 @@ Params:
 
 Game Devs Together, or GDT, is an open source webring to serve as a community for game developers of all kinds.
 
+## Helpful links
+
+If these are what you're here for, have a nice day!
+
+- Github (Contribute to the project!): [Game-Devs-Together](https://github.com/Fireye04/Game-Devs-Together)
+- Forum (Join a discussion!): [GDT Discussions](https://github.com/Fireye04/Game-Devs-Together/discussions)
+- Member List (Check out our lovely members!): [Members](/members)
+
 ## What's a webring?
 
 At a base level, a webring is a community of personal website owners who link to each other's websites, commonly via a central site.
-
-GDT will begin its life as one such site, with plans to gradually expand to something closer to a social hub.
-A few features that I hope to add down the line include:
-
-- A Forum
-- RSS Feed agreggator
-- Improved site discovery
-
-Of course, contributions and further suggestions are more than welcome.
 
 ## Cool, can I join?
 
@@ -30,9 +29,11 @@ Yes, with three caveats.
 2. You own and operate a personal website. Custom domains are not required; Neocities, Nekoweb, and github pages-hosted sites are more than welcome. Just make sure you've added the GDT widget (below) somewhere on your site!
 3. You are a respectful individual. GDT is a place for those of all identies and backgrounds to share their love of game design; If you or your website feature hateful speech, racism, sexism, ableism, homophobia, transphobia, or any other assorted nasties, you are not welcome here.
 
-If you fit the criteria, you can join by opening up a PR adding your site to the `members.json` file on the [GDT GitHub](https://github.com/Fireye04/Game-Devs-Together).
+If you fit the criteria, you can join by opening up a PR adding your site to the `members.json` file on the [GDT GitHub](https://github.com/Fireye04/Game-Devs-Together). Again, remember to add the widget somewhere on your site.
 
 If you're not familiar with the process of opening a Pull request, please open a thread on the GDT [github discussions page](https://github.com/Fireye04/Game-Devs-Together/discussions), so someone can help you out! (A more comprehensive guide is coming soon!)
+
+If you wish to just participate in the community instead, you are also more than welcome to do so.
 
 ## Widget
 
@@ -46,8 +47,19 @@ To add it to your site use the following code!
 
 ## Why?
 
-Barring actual development communities that work on the FOSS itself, I don't see enough communities built around open source resources these days, especially in the realm of the indie web. Forums go up and promptly die the moment their curator loses interest, and individual community members can't do a whole lot to help things out. I want to remedy that in what little ways I can. In this case, I'm making a little webring dedicated to a particular niche that I care about. If you want to help out or do the same elsewhere, great news! The code here is open source! Go ham!
+Barring actual development communities that work on the FOSS itself, I don't see enough communities built around open source resources these days, especially in the realm of the indie web. Forums go up and promptly die the moment their curator loses interest, and individual community members can't do a whole lot to help things out. I want to remedy that in what little ways I can. In this case, I'm making a little webring dedicated to a particular niche that I care about. If you want to help out or do the same elsewhere, I encourage you to steal the contents of this site and do so!
+
+## Plans
+
+GDT will begin its life as one such site, with plans to gradually expand to something closer to a social hub.
+A few features that I hope to add down the line include:
+
+- A Forum
+- RSS Feed agreggator
+- Improved site discovery
+
+Of course, contributions and further suggestions are more than welcome.
 
 ## Contributing
 
-GDT is an open source site by design, created both for the community and by the community. If you want to contribute, please don't hesitate to open an issue, or grab an existing one [here](https://github.com/Fireye04/Game-Devs-Together).
+GDT is an open source site by design, created both for the community and by the community. If you want to contribute, please don't hesitate to open an issue, or grab an existing one on the GitHub [here](https://github.com/Fireye04/Game-Devs-Together).
