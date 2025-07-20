@@ -1,2 +1,2 @@
-{{ $worker := resources.Get "scripts/widget.js" | js.Build }}
+{{ $worker := resources.Get "scripts/widget.js?version=1" | js.Build }}
 <script src={{$worker.RelPermalink}}></script>
