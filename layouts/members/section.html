@@ -1,24 +1,30 @@
 {{ define "main" }}
 
 <h1>Members!</h1>
-<ul>
+<!-- <h2 class="center"><a href="/">Home sweet home</a></h2> -->
+<div>
+	<hr>
 	<!-- Dynamically places sites from /data/members.json-->
 	{{with resources.Get "members.json" | transform.Unmarshal}}
-		<p>{{.RelPermalink}}</p>
 		{{range .sites}}
-			<li>{{.}}</li>
+	
+	<div class="center member-item">
+		<a href={{.url}} ><img src={{.button_url}}></a>
+		<br> 
+		<p>{{.description}} - {{.name}}</p>
+		<button onclick="location.href='{{.url}}'">Visit!</button>
+	</div>
+	<hr>
+	
 		{{end}}
 	{{else}}
 		<!--could not find file-->
-		<li>Uh</li>
-		<li>Oh</li>
-		<li>Members</li>
-		<li>File</li>
-		<li>Missing</li>
+		<p>Uh oh members file missing!</p>
 	{{end}}
-</ul>
+</div>
 
 {{.Content}}
 
+<h2 class="center"><a href="/">Home sweet home</a></h2>
 <p>Github: <a href="https://github.com/Fireye04/Game-Devs-Together">https://github.com/Fireye04/Game-Devs-Together</a></p>
 {{ end }}
