@@ -43,7 +43,7 @@ This is gonna be one hell of a placeholder (I cannot draw to save my life! Make 
 
 To add it to your site use the following code!
 
-{{< code value="<script src='https://GDT.fireye.coffee/scripts/widget.js'></script>">}}
+{{< code value="<script src='https://gdt.fireye.coffee/scripts/widget.js'></script>">}}
 
 ## Why?
 

@@ -15,11 +15,11 @@ console.log(window.data);
 widgets = {
 	default: `
 		<div id="GDT-Widget">
-			<a href="/" target="_blank"><img src="/Assets/GDT.svg" alt="Game Devs Together!" width=200></a>
+			<a href="https://gdt.fireye.coffee" target="_blank"><img src="https://gdt.fireye.coffee/Assets/GDT.svg" alt="Game Devs Together Member!" width=200></a>
 		</div>
 	`,
 	error: `<div>
-		<a href="/" target="_blank"><img src="/Assets/GDT.svg" width=200></a>
+		<a href="https://gdt.fireye.coffee" target="_blank"><img src="https://gdt.fireye.coffee/Assets/GDT.svg" width=200></a>
 		<div>This site is not yet a GDT member :)</div>
 	</div>`,
 };
