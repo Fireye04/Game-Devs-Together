@@ -1,7 +1,7 @@
 import * as data from "members.json";
 
 //Include this site by default
-siteurls = ["https://gdt.fireye.coffee"];
+siteurls = ["gdt.fireye.coffee"];
 
 for (const site of data.sites) {
 	siteurls.push(site.url.replace(/https:\/\/|http:\/\/|\/.*/gm, ""));
