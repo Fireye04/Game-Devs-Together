@@ -1,2 +1,2 @@
 {{ $worker := resources.Get "scripts/widget.js" | js.Build }}
-<script src={{$worker.RelPermalink | printf "?version=1"}}></script>
+<script src={{printf "%s?version=1" $worker.RelPermalink}}></script>
