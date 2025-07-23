@@ -2,9 +2,9 @@
 
 Game Devs Together, or GDT, is an open source webring to serve as a community for game developers of all kinds.
 
-Check out our website at [gdt.fireye.coffee](https://gdt.fireye.coffee)
+Check out our website at [gdt.fireye.coffee](https://gdt.fireye.coffee) to see if you can join (hint: if you make games, have a website, and aren't a bad actor, you should be good to go!)
 
-Open a PR to join! (specific instructions are available on the website)
+Open a PR to join! (If you don't know how to do that check out [CONTRIBUTING.md](https://github.com/Fireye04/Game-Devs-Together/blob/main/CONTRIBUTING.md)!
 
 ## Dicussions
 
