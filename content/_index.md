@@ -31,9 +31,9 @@ Yes, with three caveats.
 
 If you fit the criteria, you can join by opening up a PR adding your site to the `members.json` file on the [GDT GitHub](https://github.com/Fireye04/Game-Devs-Together). Again, remember to add the widget somewhere on your site.
 
-If you're not familiar with the process of opening a Pull request, please open a thread on the GDT [github discussions page](https://github.com/Fireye04/Game-Devs-Together/discussions), so someone can help you out! (A more comprehensive guide is coming soon!)
+If you're not familiar with the process of opening a Pull request, check out [CONTRIBUTING.md](https://github.com/Fireye04/Game-Devs-Together/blob/main/CONTRIBUTING.md)! And if you have any questions from there, open a thread on the GDT [github discussions page](https://github.com/Fireye04/Game-Devs-Together/discussions), so someone can help you out!
 
-If you wish to just participate in the community instead, you are also more than welcome to do so.
+If you wish to just participate in the community without joining the webring instead, you are also more than welcome to do so.
 
 ## Widget
 
