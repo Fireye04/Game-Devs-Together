@@ -5,6 +5,12 @@
 			"url": "https://fireye.coffee",
 			"description": "My homepage, dedicated to learning and growing as a developer and artist",
 			"button_url": "https://fireye.coffee/Assets/fireye_coffee_button.gif"
+		},
+		{
+			"name": "PossiblyAxolotl",
+			"url": "https://possiblyaxolotl.com",
+			"description": "The personal website of a silly internet goober and game developer",
+			"button_url": "https://possiblyaxolotl.com/images/88x31/88x31.png"
 		}
 	]
 }
