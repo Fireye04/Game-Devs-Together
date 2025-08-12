@@ -51,12 +51,13 @@ Barring actual development communities that work on the FOSS itself, I don't see
 
 ## Plans
 
-GDT will begin its life as one such site, with plans to gradually expand to something closer to a social hub.
+GDT will begin its life as a simple webring, with plans to gradually expand to something closer to a social hub.
 A few features that I hope to add down the line include:
 
 - A Forum
 - RSS Feed agreggator
 - Improved site discovery
+- Gamified widgets!
 
 Of course, contributions and further suggestions are more than welcome.
 
