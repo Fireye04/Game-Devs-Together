@@ -11,6 +11,12 @@
 			"url": "https://possiblyaxolotl.com",
 			"description": "The personal website of a silly internet goober and game developer",
 			"button_url": "https://possiblyaxolotl.com/images/88x31/88x31.png"
+		},
+		{
+			"name": "mailoeckchen",
+			"url": "https://mailoeckchen.neocities.org",
+			"description": "my personal website where i share ideas, art and everything cool :)",
+			"button_url": "https://mailoeckchen.neocities.org/badge/88x31.gif"
 		}
 	]
 }
