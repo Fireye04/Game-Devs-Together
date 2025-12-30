@@ -1,7 +1,7 @@
 //Code originally adapted from https://transring.neocities.org/ring.js
 import * as data from "members.json";
-import rainbowDarkWidget from "/Assets/Widgets/rainbow-dark.svg";
-import originalWidget from "/Assets/Widgets/original.svg";
+import rainbowDarkWidget from "/Assets/Widgets/rainbow-dark.html";
+import originalWidget from "/Assets/Widgets/original.html";
 
 /*
  * Script Inputs
