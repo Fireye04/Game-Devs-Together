@@ -1,7 +1,7 @@
 //Code originally adapted from https://transring.neocities.org/ring.js
 import * as data from "members.json";
-import rainbowDarkWidget from "/Assets/Widgets/rainbow-dark.html?raw";
-import originalWidget from "/Assets/Widgets/original.html?raw";
+import {rainbowDark} from "Widgets/rainbow-dark.js";
+import {original} from "Widgets/original.js";
 
 /*
  * Script Inputs
@@ -27,18 +27,18 @@ function getWrapperHTML(rawWidget){
 function getErrorWrapperHTML(rawWidget){
     return `<div id="GDT-Widget-Error">
         ${rawWidget}
-        <span id="GDT-Widget-Error-Message">
+        <span id="GDT-Widget-Error-Message"><br>
 			This site is not yet a GDT member :)
 		</span></div>`;
 }
 
 
-widgets = {
-	"rainbow-dark": rainbowDarkWidget,
-	"original": originalWidget,
+var widgets = {
+	"rainbow-dark": rainbowDark(),
+	"original": original(),
 };
 
-style = document.currentScript.getAttribute("widget-style");
+var style = document.currentScript.getAttribute("widget-style");
 
 // User input handling
 if (style === null) {
@@ -49,7 +49,7 @@ if (!(style in widgets)) {
 	console.warn(`GDT Widget: "${style}" is not a valid style! Available styles: ${Object.keys(widgets).join(", ")}`);
 }
 
-html = widgets[style];
+var html = widgets[style];
 
 
 /************** MEMBER LIST RESOLUTION **************/
