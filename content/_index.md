@@ -47,7 +47,7 @@ Here's our widget! You can choose from a few different designs, but you're welco
 
 To add it to your site use the following code!
 
-{{< code value="<script src='https://gdt.fireye.coffee/scripts/widget.js' widget-style="rainbow-dark"></script>">}}
+{{< code value="<script widget-style='rainbow-dark' src='https://gdt.fireye.coffee/scripts/widget.js'></script>">}}
 
 ## Why?
 
