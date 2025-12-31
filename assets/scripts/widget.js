@@ -32,6 +32,9 @@ function getErrorWrapperHTML(rawWidget){
 		</span></div>`;
 }
 
+function removeHTTPS(href) {
+	return href.replace(/https:\/\/|http:\/\/|\/.*/gm, "")
+}
 
 var widgets = {
 	"rainbow-dark": rainbowDark(),
@@ -51,21 +54,21 @@ if (!(style in widgets)) {
 
 var html = widgets[style];
 
+webringLink = "https://gdt.fireye.coffee";
 
 /************** MEMBER LIST RESOLUTION **************/
 
 //Include GDT website by default
-siteurls = ["gdt.fireye.coffee"];
+siteurls = [removeHTTPS(webringLink)];
 
 for (const site of data.sites) {
-	siteurls.push(site.url.replace(/https:\/\/|http:\/\/|\/.*/gm, ""));
+	siteurls.push(removeHTTPS(site.url));
 }
 
 window.data = siteurls;
 
 idx = window.data.findIndex((site) =>
-	location.href
-		.replace(/https:\/\/|http:\/\/|\/.*/gm, "")
+	removeHTTPS(location.href)
 		.startsWith(site, 0),
 );
 
@@ -74,7 +77,6 @@ if (idx !== 0) {
 	window.data.splice(0,1);
 	idx -= 1;
 }
-webringLink = "https://gdt.fireye.coffee";
 
 // Site not found in member list 
 if (idx === -1) {
