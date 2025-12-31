@@ -70,8 +70,10 @@ idx = window.data.findIndex((site) =>
 );
 
 // Remove GDT website from member URLs
-window.data.splice(0,1);
-
+if (idx !== 0) {
+	window.data.splice(0,1);
+	idx -= 1;
+}
 webringLink = "https://gdt.fireye.coffee";
 
 // Site not found in member list 
