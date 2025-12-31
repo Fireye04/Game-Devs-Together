@@ -1,5 +1,4 @@
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-<a href="{webring-link}" target="_blank">
+var widget = `<a href="{webring-link}" target="_blank">
 <svg
    width="165mm"
    height="63mm"
@@ -97,4 +96,8 @@
          sodipodi:role="line">GDT</tspan></text>
   </g>
 </svg>
-</a>
+</a>`
+
+export function original() {
+    return widget;
+}

@@ -1,3 +1,8 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://gdt.fireye.coffee/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Game Devs Together'
+
+[build]
+    [[build.cachebusters]]
+        source = 'assets/.*\.(js|ts|jsx|tsx)'
+        target = 'js'

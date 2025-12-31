@@ -1,4 +1,4 @@
-<svg
+var widget = `<svg
    id="gdt-widget"
    alt="{alt-text}"
    width="248"
@@ -157,4 +157,8 @@
             d="m 88,4 v 12 h 12 V 4 Z m 20,0 v 12 h 44 v -4 h -4 V 8 h -4 V 4 Z m 52,0 v 12 h 44 V 4 Z" />
       </g>
    </a>
-</svg>
+</svg>`
+
+export function rainbowDark() {
+    return widget;
+}
