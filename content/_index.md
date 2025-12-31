@@ -9,6 +9,10 @@ Params:
 
 Game Devs Together, or GDT, is an open source webring to serve as a community for game developers of all kinds.
 
+## [Members](/members)
+
+Our current member list!
+
 ## Helpful links
 
 If these are what you're here for, have a nice day!
@@ -37,13 +41,13 @@ If you wish to just participate in the community without joining the webring ins
 
 ## Widget
 
-This is gonna be one hell of a placeholder (I cannot draw to save my life! Make it better [here](https://github.com/Fireye04/Game-Devs-Together/discussions/7)!)
+Here's our widget! You can choose from a few different designs, but you're welcome to contribute more [here](https://github.com/Fireye04/Game-Devs-Together/discussions/7)!
 
 {{< scripts >}}
 
 To add it to your site use the following code!
 
-{{< code value="<script src='https://gdt.fireye.coffee/scripts/widget.js'></script>">}}
+{{< code value="<script src='https://gdt.fireye.coffee/scripts/widget.js' widget-style="rainbow-dark"></script>">}}
 
 ## Why?
 
