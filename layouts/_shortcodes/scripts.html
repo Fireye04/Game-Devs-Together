@@ -1,3 +1,3 @@
 {{ $worker := resources.Get "scripts/widget.js" | js.Build }}
 
-<script widget-style="{{ .Get 'style'}}" src={{$worker.RelPermalink}}></script>
+<script widget-style="{{ .Get "style"}}" src={{$worker.RelPermalink}}></script>

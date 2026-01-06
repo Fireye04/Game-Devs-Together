@@ -15,7 +15,7 @@ var widget = `<svg
          style="display:inline">
          <path
             id="gdt-w-ra-bg"
-            style="opacity:1;fill:#e13535"
+            style="opacity:1;fill:#fbf3ea"
             d="m 204,0 v 56 h 24 v -4 h 4 v -4 h 4 v -4 h 4 v -4 h 4 v -4 h 4 V 20 h -4 v -4 h -4 v -4 h -4 V 8 h -4 V 4 h -4 V 0 Z" />
          <path
             id="gdt-w-ra-red"
