@@ -95,11 +95,11 @@ if (idx === -1) {
 console.log(idx);
 
 // Assemble next and previous member links
-prevIdx = (idx - 1) % window.data.length;
-nextIdx = (idx + 1) % window.data.length;
+var prevIdx = (idx - 1) % window.data.length;
+var nextIdx = (idx + 1) % window.data.length;
 
-prevLink = "https://" + window.data[prevIdx];
-nextLink = "https://" + window.data[nextIdx];
+var prevLink = "https://" + window.data[prevIdx];
+var nextLink = "https://" + window.data[nextIdx];
 
 html = getWrapperHTML(html
     .replace("{webring-link}", webringLink)
