@@ -92,6 +92,7 @@ if (idx === -1) {
     // return early
 	throw new Error("This site is not a GDT member");	
 } 
+console.log(idx);
 
 // Assemble next and previous member links
 prevIdx = (idx - 1) % window.data.length;
