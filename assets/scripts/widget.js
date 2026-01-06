@@ -56,29 +56,26 @@ if (!(style in widgets)) {
 
 var html = widgets[style];
 
-webringLink = "https://gdt.fireye.coffee";
+var webringLink = "https://gdt.fireye.coffee";
 
 /************** MEMBER LIST RESOLUTION **************/
 
-//Include GDT website by default
-siteurls = [removeHTTPS(webringLink)];
+var siteurls = [];
 
 for (const site of data.sites) {
 	siteurls.push(removeHTTPS(site.url));
 }
 
-window.data = siteurls;
+window.data = siteurls.slice();
 
-idx = window.data.findIndex((site) =>
+//Include GDT website by default
+siteurls.push(removeHTTPS(webringLink));
+
+idx = siteurls.findIndex((site) =>
 	removeHTTPS(location.href)
 		.startsWith(site, 0),
 );
 
-// Remove GDT website from member URLs
-if (idx !== 0) {
-	window.data.splice(0,1);
-	idx -= 1;
-}
 
 // Site not found in member list 
 if (idx === -1) {
