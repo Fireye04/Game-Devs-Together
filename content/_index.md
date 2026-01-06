@@ -55,6 +55,10 @@ To add it to your site use the following code!
 
 To change styles, swap out the "widget-style" variable above, with your preferred option.
 
+### Contributions
+
+The above logos were designed by the lovely [mailoeckchen](https://mailoeckchen.neocities.org).
+
 ## Why?
 
 Barring actual development communities that work on the FOSS itself, I don't see enough communities built around open source resources these days, especially in the realm of the indie web. Forums go up and promptly die the moment their curator loses interest, and individual community members can't do a whole lot to help things out. I want to remedy that in what little ways I can. In this case, I'm making a little webring dedicated to a particular niche that I care about. If you want to help out or do the same elsewhere, I encourage you to steal the contents of this site and do so!
