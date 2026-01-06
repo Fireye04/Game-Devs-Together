@@ -1,6 +1,7 @@
 //Code originally adapted from https://transring.neocities.org/ring.js
 import * as data from "members.json";
 import {rainbowDark} from "Widgets/rainbow-dark.js";
+import {rainbowLight} from "Widgets/rainbow-light.js";
 import {original} from "Widgets/original.js";
 
 /*
@@ -38,6 +39,7 @@ function removeHTTPS(href) {
 
 var widgets = {
 	"rainbow-dark": rainbowDark(),
+	"rainbow-light": rainbowLight(),
 	"original": original(),
 };
 
