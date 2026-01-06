@@ -43,11 +43,17 @@ If you wish to just participate in the community without joining the webring ins
 
 Here's our widget! You can choose from a few different designs, but you're welcome to contribute more [here](https://github.com/Fireye04/Game-Devs-Together/discussions/7)!
 
-{{< scripts >}}
+### rainbow-dark
+{{< scripts style = "rainbow-dark" >}}
+
+### rainbow-light
+{{< scripts style = "rainbow-light" >}}
 
 To add it to your site use the following code!
 
 {{< code value="<script widget-style='rainbow-dark' src='https://gdt.fireye.coffee/scripts/widget.js'></script>">}}
+
+To change styles, swap out the "widget-style" variable above, with your preferred option.
 
 ## Why?
 
