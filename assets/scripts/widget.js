@@ -57,6 +57,7 @@ if (!(style in widgets)) {
 var html = widgets[style];
 
 var webringLink = "https://gdt.fireye.coffee";
+var stagingLink = "https://gdt-staging.pages.dev";
 
 /************** MEMBER LIST RESOLUTION **************/
 
@@ -68,8 +69,9 @@ for (const site of data.sites) {
 
 window.data = siteurls.slice();
 
-//Include GDT website by default
+//Include GDT website & staging by default
 siteurls.push(removeHTTPS(webringLink));
+siteurls.push(removeHTTPS(stagingLink));
 
 idx = siteurls.findIndex((site) =>
 	removeHTTPS(location.href)
