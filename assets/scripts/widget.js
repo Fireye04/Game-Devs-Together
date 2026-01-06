@@ -37,6 +37,10 @@ function removeHTTPS(href) {
 	return href.replace(/https:\/\/|http:\/\/|\/.*/gm, "")
 }
 
+function actualModulo(base, mod) {
+    return ((base % mod) + mod) % mod
+}
+
 var widgets = {
 	"rainbow-dark": rainbowDark(),
 	"rainbow-light": rainbowLight(),
@@ -92,11 +96,10 @@ if (idx === -1) {
     // return early
 	throw new Error("This site is not a GDT member");	
 } 
-console.log(idx);
 
 // Assemble next and previous member links
-var prevIdx = (idx - 1) % window.data.length;
-var nextIdx = (idx + 1) % window.data.length;
+var prevIdx = actualModulo(idx - 1, window.data.length);
+var nextIdx = actualModulo(idx + 1, window.data.length);
 
 var prevLink = "https://" + window.data[prevIdx];
 var nextLink = "https://" + window.data[nextIdx];
