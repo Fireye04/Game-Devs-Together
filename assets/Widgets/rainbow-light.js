@@ -9,7 +9,7 @@ var widget = `<svg
    version="1.1">
    <defs
       id="gdt-w-defs1" />
-   <a href="{next-link}" target="_blank">
+   <a href="{next-link}">
       <g
          id="gdt-w-right-arrow"
          style="display:inline">
@@ -35,7 +35,7 @@ var widget = `<svg
             d="m 212,4 v 12 h 20 v -4 h -4 V 8 h -4 V 4 Z" />
       </g>
    </a>
-   <a href="{prev-link}" target="_blank">
+   <a href="{prev-link}">
       <g
          id="gdt-w-left-arrow"
          style="display:inline">
