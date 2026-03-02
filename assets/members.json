@@ -23,6 +23,12 @@
 			"url": "https://soursoft.neocities.org",
 			"description": "A gamedev forum, chatroom, and tools site... and SourSoft's dev log.",
 			"button_url": "https://soursoft.neocities.org/button.png"
+		},
+		{
+		  "name": "LAME Dimension",
+		  "url": "https://lamedimension.moe",
+		  "description": "Super life-changing video games for homies that emphasizes the power of food and friendship!",
+		  "button_url": "https://lamedimension.moe/cock-share/lame_friendship_button.gif"
 		}
 	]
 }
