@@ -35,6 +35,12 @@
   		  "url": "https://artofgaming.net",
   		  "description": "My personal site containing my games and thoughts about gamedev as well as other things",
   		  "button_url": "https://artofgaming.net/button.gif"
+		},
+		{
+  		  "name": "Thomas Mason's Website",
+  		  "url": "https://thomasmason.us",
+  		  "description": "The place I put my HTML5 creations, my half-baked thoughts, and whatever else I think of.",
+		  "button_url": "https://thomasmason.us/images/thomasm1248-button.gif"
 		}
 	]
 }
