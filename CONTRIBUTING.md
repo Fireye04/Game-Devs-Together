@@ -8,7 +8,7 @@ At the minimum you'll need to do the following:
 
 1. Fork the repo. This is done in github via the big 'ol "fork" button on the project's github homepage.
 2. Clone your fork (not the main repo) locally via `git clone <url>`, and `cd` into it.
-3. Make your changes. This should involve adding the following snippet of code to the `members.json` file (shown [here](https://github.com/Fireye04/Game-Devs-Together/blob/main/assets/members.json)). Please put it in the "sites" list, at the bottom. Don't worry if you think you've messed it up, it'll be reviewed before making its way to the actual repo.
+3. Make your changes. This should involve adding the following snippet of code to the `members.json` file (shown [here](https://github.com/Fireye04/Game-Devs-Together/blob/main/assets/members.json)). Please put it in the "sites" list at the bottom, and don't forget to add a comma after the preceding entry! Don't worry if you think you've messed it up, it'll be reviewed before making its way to the actual repo.
 ```json
 {
   "name": "your-name-or-screenname-here",
