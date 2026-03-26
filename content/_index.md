@@ -18,8 +18,9 @@ Our current member list!
 If these are what you're here for, have a nice day!
 
 - Github (Contribute to the project!): [Game-Devs-Together](https://github.com/Fireye04/Game-Devs-Together)
-- Forum (Join a discussion!): [GDT Discussions](https://github.com/Fireye04/Game-Devs-Together/discussions)
+- Matrix chat (Chat!): https://matrix.to/#/#gamedevstogether:matrix.org
 - Member List (Check out our lovely members!): [Members](/members)
+- Forum (Join a discussion!): [GDT Discussions](https://github.com/Fireye04/Game-Devs-Together/discussions) 
 
 ## What's a webring?
 
