@@ -1,3 +1,5 @@
+# Migrated to codeberg: https://codeberg.org/Fireye/Game-Devs-Together
+
 # Game Devs Together
 
 Game Devs Together, or GDT, is an open source webring to serve as a community for game developers of all kinds.
